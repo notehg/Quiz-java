@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="estilo.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz legal</title>
+</head>
+<body>
+<form name="f1">
+<h3> Validação de E-mail com JavaScript</h3>
+E-mail:
+<input type="text" name="email" onblur="validacaoEmail(f1.email)"  maxlength="60" size='65'>
+<div id="msgemail" name="email"></div>
+
+
+<p id="question"></p>
+    <ul id="options">
+      <li><button onclick="checkAnswer(0)">Opção 1</button></li>
+      <li><button onclick="checkAnswer(1)">Opção 2</button></li>
+      <li><button onclick="checkAnswer(2)">Opção 3</button></li>
+      <li><button onclick="checkAnswer(3)">Opção 4</button></li>
+    </ul>
+  </div>
+  <p id="result"></p>
+
+
+</form>
+        
+
+
+<script src="java.js"></script>
+</body>
+</html>
